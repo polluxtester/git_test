@@ -1,3 +1,6 @@
 #Git check repository status commands:
 git status #will print current status of repository, with details
 git status -s #will display current status of repo in short way
+#?? is for new and not added to index files
+#M - modified and no added to index
+#A - added to index
