@@ -1,0 +1,3 @@
+#Git check repository status commands:
+git status #will print current status of repository, with details
+git status -s #will display current status of repo in short way

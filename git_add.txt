@@ -1,0 +1,3 @@
+#Git add comands:
+1. git add filename.ext #will add only filename.ext to index for commit
+2. git add * #will add all changed file to index for futire commit 
