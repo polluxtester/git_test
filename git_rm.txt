@@ -1,0 +1,9 @@
+#git rm comand examples:
+git rm filename # will delete file from work directory and from git index
+#if you will use just rm command, it will remove file from directory, but this file will remain in index, it will be showed in section "Changes not stage for commit"
+
+#if file was already indexed, you should use key -f for forcr deletion of file
+
+git rm --cached filename # will delete file from index, but not from directory, it will bu usefull if you forgot to include file to .gitignore and want to fix it
+
+git rm log/\*.log # will delete all files with .log extention from log/ directory
