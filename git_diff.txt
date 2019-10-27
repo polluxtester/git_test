@@ -1,0 +1,3 @@
+#git diff command examples:
+git diff #will show not indexed changes
+git diff --staged #or diff --cached will show indexed changes with last commit
